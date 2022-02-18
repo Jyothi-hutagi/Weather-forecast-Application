@@ -1,0 +1,90 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(238, 237, 237, 0.438);
+    color: rgb(105, 104, 104);
+    font-family: sans-serif
+}
+
+input{
+    margin-left:4px;
+    border:0;
+    border-bottom: 1px solid grey;
+}
+.card {
+    padding: 1.2rem 8rem 1rem 3rem;
+    margin: 1rem;
+    border-radius: 1.5rem;
+    border-color: rgba(238, 237, 237, 0.438);
+    box-shadow: 5px 8px 10px #80808033
+}
+
+.img-fluid {
+    float: right;
+    width: 30%;
+    display: flex;
+    align-items: center
+}
+#btn{
+    margin-left: 1px;
+    background-color: #7882A4;
+}
+.row2 .img-fluid {
+    margin: 10px;
+    opacity: 0.8;
+    width: 70%;
+}
+.row1 {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: black
+}
+
+.row3 {
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+    margin-left: 20px;
+}
+.card-3 .row3 {
+    margin: 5% 0 2.5rem
+}
+.col {
+    overflow: visible
+}
+
+@media(max-width:400px) {
+    .row3 {
+        font-size: 0.7rem;
+        font-weight: bold;
+        color: black
+    }
+}
+
+@media(max-width:320px) {
+    .row3 {
+        font-size: 0.6rem;
+        font-weight: bold;
+        color: black
+    }
+}
+
+.btn-link {
+    font-size: 20px;
+    color: rgb(43, 55, 88);
+    text-decoration: none;
+    position: relative;
+    top: 25px;
+    padding-left: 40px;
+}
+.wheather-data{
+    display: flex;
+}
+.weathertemp{
+    margin-left:80%;
+}
+.weathertemp1{
+    margin-left:30%;
+}
